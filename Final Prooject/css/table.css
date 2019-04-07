@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;        
+}
+
+#dataInput {
+    border:1px solid #434551;
+    border-radius: 4px;
+    padding: 2px;
+    height: 25px;
+    outline:none;
+    width: 250px;
+}
+
+
+table, th, td {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;    
+    text-align: center; 
+    vertical-align: middle;
+}
+
+th, td {
+    padding: 9px;
+}
+
+th {
+    background-color: #ededed;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #e8e8e8;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
